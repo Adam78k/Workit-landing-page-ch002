@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url('../Workit-landing-page-ch002/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf')
+    format("truetype-variations");
+    font-weight: 600;
+    font-stretch: 50% 200%;
+
+  }
+
+@font-face {
+    font-family: "Manrope";
+    src: url('../Workit-landing-page-ch002/assets/fonts/manrope/static/Manrope-Regular.ttf')
+        format("truetype-variations");
+    font-weight: 400;
+    font-stretch: 50% 200%;
+  }
+  
+  /* div {
+    font-family: fraunces;
+  } */
+
+
+
+
+:root {
+    --dark-purple: #24053E ;
+    --lightgreen-Color: #44FFA1;
+    --whiteColor:white;
+}
+
+body {
+    height: calc(100vh - 1px);
+    
+
+}
+
+header{
+    text-align: center;
+    color: var(--whiteColor);
+    position: relative;
+    
+}
